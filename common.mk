@@ -15,8 +15,8 @@
 #
 
 # Doze
-PRODUCT_PACKAGES += \
-    OneplusDoze
+# PRODUCT_PACKAGES += \
+#     OneplusDoze
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
