@@ -27,20 +27,20 @@ import static org.mokee.platform.internal.R.bool.config_proximityCheckOnWakeEnab
 
 class Utils {
 
-    static boolean isSupported(Context content) {
-        return content.getResources().getBoolean(config_proximityCheckOnWake) &&
+    static boolean isSupported(Context context) {
+        return context.getResources().getBoolean(config_proximityCheckOnWake) &&
                 FileUtils.isFileWritable(Constants.FP_DISABLE_NODE);
     }
 
-    private static boolean isEnabledByDefault(Context content) {
-        return content.getResources().getBoolean(
+    private static boolean isEnabledByDefault(Context context) {
+        return context.getResources().getBoolean(
                 config_proximityCheckOnWakeEnabledByDefault);
     }
 
-    static boolean isEnabled(Context content) {
-        return MKSettings.System.getInt(content.getContentResolver(),
+    static boolean isEnabled(Context context) {
+        return MKSettings.System.getInt(context.getContentResolver(),
                 MKSettings.System.PROXIMITY_ON_WAKE,
-                isEnabledByDefault(content) ? 1 : 0) != 0;
+                isEnabledByDefault(context) ? 1 : 0) != 0;
     }
 
 }
