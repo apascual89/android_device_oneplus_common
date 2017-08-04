@@ -19,7 +19,7 @@ package com.cyanogenmod.pocketmode;
 import android.database.ContentObserver;
 import android.util.Log;
 
-import mokee.providers.MKSettings;
+import cyanogenmod.providers.CMSettings;
 
 class SettingObserver extends ContentObserver {
 
@@ -41,7 +41,7 @@ class SettingObserver extends ContentObserver {
     void enable() {
         if (DEBUG) Log.d(TAG, "Enabling");
         mService.getContentResolver().registerContentObserver(
-            MKSettings.System.getUriFor(MKSettings.System.PROXIMITY_ON_WAKE),
+            CMSettings.System.getUriFor(CMSettings.System.PROXIMITY_ON_WAKE),
             false, this);
     }
 

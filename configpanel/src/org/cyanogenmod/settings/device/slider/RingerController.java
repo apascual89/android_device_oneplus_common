@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.mokee.settings.device.slider;
+package org.cyanogenmod.settings.device.slider;
 
 import android.content.Context;
 import android.media.AudioManager;
 import android.util.Log;
 import android.util.SparseIntArray;
 
-import org.mokee.settings.device.SliderControllerBase;
+import org.cyanogenmod.settings.device.SliderControllerBase;
 
 public final class RingerController extends SliderControllerBase {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokee.settings.device.slider;
+package org.cyanogenmod.settings.device.slider;
 
 import android.content.Context;
 import android.os.RemoteException;
@@ -23,7 +23,7 @@ import android.view.IWindowManager;
 import android.view.Surface;
 import android.view.WindowManagerGlobal;
 
-import org.mokee.settings.device.SliderControllerBase;
+import org.cyanogenmod.settings.device.SliderControllerBase;
 
 public final class RotationController extends SliderControllerBase {
 

@@ -17,10 +17,10 @@
 
 BOARD_VENDOR := oneplus
 
-# MK Hardware
-BOARD_USES_MOKEE_HARDWARE := true
+# CM Hardware
+BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    hardware/mokee/mkhw
+    hardware/cyanogen/cmhw
 
 # QCOM Power
 TARGET_POWERHAL_VARIANT := qcom

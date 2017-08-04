@@ -28,12 +28,12 @@ import com.android.internal.os.DeviceKeyHandler;
 
 import java.util.Arrays;
 
-import org.mokee.settings.device.SliderControllerBase;
-import org.mokee.settings.device.slider.NotificationController;
-import org.mokee.settings.device.slider.FlashlightController;
-import org.mokee.settings.device.slider.BrightnessController;
-import org.mokee.settings.device.slider.RotationController;
-import org.mokee.settings.device.slider.RingerController;
+import org.cyanogenmod.settings.device.SliderControllerBase;
+import org.cyanogenmod.settings.device.slider.NotificationController;
+import org.cyanogenmod.settings.device.slider.FlashlightController;
+import org.cyanogenmod.settings.device.slider.BrightnessController;
+import org.cyanogenmod.settings.device.slider.RotationController;
+import org.cyanogenmod.settings.device.slider.RingerController;
 
 public class KeyHandler implements DeviceKeyHandler {
 

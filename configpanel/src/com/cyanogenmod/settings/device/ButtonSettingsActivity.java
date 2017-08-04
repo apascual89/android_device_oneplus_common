@@ -21,7 +21,7 @@ import android.os.Bundle;
 
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
-import org.mokee.internal.util.FileUtils;
+import org.cyanogenmod.internal.util.FileUtils;
 
 public class ButtonSettingsActivity extends SettingsDrawerActivity {
 

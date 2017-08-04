@@ -25,7 +25,7 @@ LOCAL_PACKAGE_NAME := OneplusPocketMode
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    org.mokee.platform.internal
+    org.cyanogenmod.platform.internal
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 

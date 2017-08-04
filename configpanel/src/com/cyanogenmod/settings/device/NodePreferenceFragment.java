@@ -26,8 +26,8 @@ import android.view.MenuItem;
 
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
-import org.mokee.internal.util.FileUtils;
-import org.mokee.internal.util.ScreenType;
+import org.cyanogenmod.internal.util.FileUtils;
+import org.cyanogenmod.internal.util.ScreenType;
 
 public abstract class NodePreferenceFragment extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {

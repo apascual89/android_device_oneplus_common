@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.mokee.settings.device.slider;
+package org.cyanogenmod.settings.device.slider;
 
 import android.content.Context;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.util.Log;
 
-import org.mokee.settings.device.SliderControllerBase;
+import org.cyanogenmod.settings.device.SliderControllerBase;
 
 public final class BrightnessController extends SliderControllerBase {
 

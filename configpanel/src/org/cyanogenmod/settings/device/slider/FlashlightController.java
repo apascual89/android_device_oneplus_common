@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokee.settings.device.slider;
+package org.cyanogenmod.settings.device.slider;
 
 import android.content.Context;
 import android.hardware.camera2.CameraAccessException;
@@ -24,7 +24,7 @@ import android.os.Handler;
 import android.os.PowerManager;
 import android.util.Log;
 
-import org.mokee.settings.device.SliderControllerBase;
+import org.cyanogenmod.settings.device.SliderControllerBase;
 
 public final class FlashlightController extends SliderControllerBase {
 

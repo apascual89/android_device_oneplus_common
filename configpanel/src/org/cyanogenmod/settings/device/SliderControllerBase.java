@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.mokee.settings.device;
+package org.cyanogenmod.settings.device;
 
 import android.content.Context;
 import android.os.Vibrator;
 import android.util.Log;
 
-import mokee.providers.MKSettings;
+import cyanogenmod.providers.CMSettings;
 
 import com.cyanogenmod.settings.device.ButtonConstants;
-import org.mokee.internal.util.FileUtils;
+import org.cyanogenmod.internal.util.FileUtils;
 
 public abstract class SliderControllerBase {
 
@@ -102,8 +102,8 @@ public abstract class SliderControllerBase {
         if (mVibrator == null) {
             return;
         }
-        boolean enabled = MKSettings.System.getInt(mContext.getContentResolver(),
-                MKSettings.System.TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK, 1) != 0;
+        boolean enabled = CMSettings.System.getInt(mContext.getContentResolver(),
+                CMSettings.System.TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK, 1) != 0;
         if (enabled) {
             mVibrator.vibrate(50);
         }
